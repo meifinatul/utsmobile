@@ -6,6 +6,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Home from './screens/Home';
 import About from './screens/About';
+import Profil from './screens/Profil';
 
 const Stack = createNativeStackNavigator();
 const Tabs = createBottomTabNavigator();
@@ -30,6 +31,16 @@ const MenuTab = () => {
           headerShown: false,
           tabBarIcon: ({size, color}) => (
             <MaterialCommunityIcons name="cog" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="Profil"
+        component={Profil}
+        options={{
+          headerShown: false,
+          tabBarIcon: ({size, color}) => (
+            <MaterialCommunityIcons name="account" size={size} color={color} />
           ),
         }}
       />
