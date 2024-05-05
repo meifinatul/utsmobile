@@ -4,9 +4,6 @@ import React from 'react';
 const IconMenu = ({label}) => {
   return (
     <TouchableOpacity style={styles.container}>
-      <View>
-        <Text style={styles.box}>Icon</Text>
-      </View>
       <Text style={styles.box}>{label}</Text>
     </TouchableOpacity>
   );
