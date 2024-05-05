@@ -18,7 +18,6 @@ const MenuTab = () => {
         name="Beranda"
         component={Beranda}
         options={{
-          headerShown: false,
           tabBarIcon: ({size, color}) => (
             <MaterialCommunityIcons name="home" size={size} color={color} />
           ),
@@ -28,7 +27,6 @@ const MenuTab = () => {
         name="Makanan"
         component={Makanan}
         options={{
-          headerShown: false,
           tabBarIcon: ({size, color}) => (
             <MaterialCommunityIcons name="food" size={size} color={color} />
           ),
@@ -38,7 +36,6 @@ const MenuTab = () => {
         name="Profil"
         component={Profil}
         options={{
-          headerShown: false,
           tabBarIcon: ({size, color}) => (
             <MaterialCommunityIcons name="account" size={size} color={color} />
           ),
