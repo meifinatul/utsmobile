@@ -5,6 +5,8 @@ const Makanan = ({navigation}) => {
   return (
     <View>
       <Text> Selamat Datang Di Produk Kami</Text>
+      <Text> Menu Maknan </Text>
+      <Text> 1. Ayam Gerprek 2. Sate Ayam 3. Nasi Goreng</Text>
       <TouchableOpacity
         onPress={() => navigation.navigate('Profil')}
         style={styles.btn}>

@@ -1,14 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native';
-import IconMenu from '../components/IconMenu';
-
-const Data = [
-  {id: 1, label: 'Mimil'},
-  {id: 2, label: 'Diana'},
-  {id: 3, label: 'Nindia'},
-  {id: 4, label: 'Fina'},
-  {id: 5, label: 'Liana'},
-];
 
 const Profile = () => {
   return (
@@ -18,7 +9,7 @@ const Profile = () => {
         style={styles.profileImage}
       />
       <TouchableOpacity
-        onPress={() => console.log("TokoVINA")}
+        onPress={() => console.log("Toko VINA")}
         style={styles.editProfileButton}
       >
         <Text style={styles.editProfileButtonText}>Toko VINA</Text>
