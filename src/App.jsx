@@ -24,11 +24,11 @@ const MenuTab = () => {
         }}
       />
       <Tabs.Screen
-        name="Makanan"
+        name="Diskon"
         component={Makanan}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="food" size={size} color={color} />
+            <MaterialCommunityIcons name="sale" size={size} color={color} />
           ),
         }}
       />
